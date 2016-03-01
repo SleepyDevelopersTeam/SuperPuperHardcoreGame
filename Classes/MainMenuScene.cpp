@@ -41,11 +41,9 @@ bool MainMenuScene::init()
     backgroundSprite->setPosition(Point(visibleSize.width/2 + origin.x,visibleSize.height/2 + origin.y));
     this->addChild(backgroundSprite);
     
-    
-    
-    
     auto playItem=MenuItemImage::create("levelList.png","levelListClicked.png",CC_CALLBACK_1(MainMenuScene::GoToGameScene, this));
     playItem->setPosition(Point(visibleSize.width/2 + origin.x, visibleSize.height/2+origin.y));
+    
     auto menu=Menu::create(playItem,NULL);
     menu->setPosition(Point::ZERO);
     this->addChild(menu);
@@ -54,6 +52,7 @@ bool MainMenuScene::init()
     label->setPosition(Point(visibleSize.width/2 + origin.x,visibleSize.height-label->getLineHeight()));
     label->enableOutline(Color4B(255,0,0,255),5);
     this->addChild(label);
+    
     return true;
 }
 

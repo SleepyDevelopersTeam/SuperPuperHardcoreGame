@@ -41,6 +41,7 @@ bool SplashScene::init()
     auto backgroundSprite = Sprite::create("splash.png");
     backgroundSprite->setPosition(Point(visibleSize.width/2 + origin.x,visibleSize.height/2 + origin.y));
     this->addChild(backgroundSprite);
+    
     return true;
 }
 
