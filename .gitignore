@@ -30,7 +30,7 @@
 *.app
 *.xcodeproj
 
-#cocos files
+# cocos files
 cocos2d/
 cocosstudio/
 proj.android/
