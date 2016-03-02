@@ -29,3 +29,14 @@
 *.out
 *.app
 *.xcodeproj
+
+# cocos files
+cocos2d/
+cocosstudio/
+proj.android/
+proj.android-studio/
+proj.ios_mac/
+proj.linux/
+proj.win8.1-universal/
+proj.win10/
+proj.win32/
